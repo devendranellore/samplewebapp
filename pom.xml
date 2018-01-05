@@ -7,7 +7,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>webappExample Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-
+<build>
  <plugins>
   <plugin>
   <groupId>org.jacoco</groupId>
@@ -34,7 +34,7 @@
   </executions>
  </plugin>
 </plugins>
-
+</build>
 
 	<dependencies>
 		<dependency>
